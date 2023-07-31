@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candle Castle - Sumate</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="shortcut icon" href="/img/logo_candle_castle.png">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <div id="navegador">
+          <a href="/pages/index.html">
+            <div class="logo-image">
+              <img src="/img/logo_candle_castle.png" class="img-fluid">
+           </div>
+          </a>
+    
+          <ul class="padre-flex">
+            <li><a href="/pages/index.html">Inicio</a></li>
+            <li><a href="/pages/nosotros.html">Nosotros</a></li>
+            <li><a href="/pages/productos.html">Productos</a></li>
+            <li><a href="/pages/contacto.html">Contactanos</a></li>
+            <li><a href="/pages/sumate.html">Sumate al equipo</a></li>
+          </ul>
+    
+        </div>
+      </header>
+    
+    <main>
+      <div class="formulario-registro">
+        <h1>¡Sumate a nuestro equipo!</h1>
+        <form action="form.php" method="post" enctype="form-data">
+          <ul>
+            <li>
+              <label for="name" >Nombre:</label>
+              <input type="text" id="nombre" name="nombre">
+            </li>
+
+            <li>
+              <label for="name">Apellido:</label>
+              <input type="text" id="apellido" name="apellido">
+            </li>
+
+            <li>
+              <label for="mail">Email:</label>
+              <input type="email" id="mail" name="email">
+            </li>
+
+            <li>
+              <label for="numero">Número de contacto:</label>
+              <input type="number" id="number" name="number">
+            </li>
+
+            <li>
+              <label for="textarea">Contanos por qué te gustaría trabajar con nostros:</label><br>
+              <textarea rows="5" cols="50"></textarea><br><br>
+            </li>
+
+            <li>
+              <button type="file" name="archivo-subido" >Carga tu cv</button>
+              <button type="submit">Enviar</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </main>
+    <!-- comienza el footer-->
+
+<footer>
+    <div class="footer">
+      <ul class="redes">
+        <li>
+          <p class="texto-footer">© 2023 Candle Castle - Todos los derechos reservados</p>
+        </li>
+  
+        <li>
+          <i class="bi bi-facebook"></i>
+        </li>
+  
+        <li>
+          <i class="bi bi-instagram"></i>
+        </li>
+  
+        <li>
+          <i class="bi bi-whatsapp"></i>
+        </li>
+      </ul>
+  </div>
+  </footer>
+  
+  <!-- fin del footer-->
+</body>
+</html>

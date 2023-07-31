@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root {
+    --color-1: #DB7093;
+    --color-2: #ececec;
+    --color-3: #FFB6C1;
+    --color-4: #8B0000;
+    --color-5: #C71585;
+
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.logo-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+ }
+
+#navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+
+#navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: var(--color-2);
+    background-color: var(--color-1);
+    border: 1px solid ;
+    text-decoration: none;
+ }
+
+ #navegador li a:hover{
+    background-color: var(--color-3);
+    color: #ffffff;
+ }
+
+.padre-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+ h1 {
+    color: var(--color-5);
+    background-color: #FFB6C1;
+    
+ }
+
+
+p {
+    font-size: 15px;
+    
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 2px 0;
+    
+}
+
+
+ .nosotros {
+    width: 100%;
+    background-color: var(--color-5) ;
+    color: #ffffff;
+    
+ }
+
+.footer{
+    background-color: #DB7093;
+    color: #ececec;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.redes {
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.menu-desplegable {
+    display: grid;
+    justify-content: space-around;
+}
+
+.menu-productos {
+    background-color: #FFB6C1;
+}
+
+.productos-container {
+    background-color: #DB7093;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.titulo3 {
+    color: #ececec;
+}
+
+.formulario-registro {
+    color: #C71585;
+}
+
+.p-formulario{
+    color: #C71585;
+}
