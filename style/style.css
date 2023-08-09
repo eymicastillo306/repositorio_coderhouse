@@ -1,4 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+:root {
+    --color-1: #DB7093;
+    --color-2: #ffffff;
+    --color-3: #FFB6C1;
+    --color-4: #8B0000;
+    --color-5: #C71585;
+
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0;
+    
+}
+
+.logo-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.nav_bar {
+    list-style-type: none;
+    background-color: #FFB6C1;
+    padding-block: 10px;
+    
+}
+
+.nav_bar_items {
+    display: inline-block;
+    margin-inline: 10px;
+}
+
+.nav_bar_items a {
+    color: #C71585;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.nav_bar_items.active a,
+.nav_bar_items a:hover{
+    text-decoration: underline;
+}
+
+.titulo_principal {
+    color: #ffffff;
+    background-color: #C71585;
+    font-weight: 500px;
+    height: 100px;
+    padding: 10px;
+}
+
+.titulo_principal h1{
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 15px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 2px 0;
+}
+
+.nosotros {
+    width: 100%;
+    background-color: #C71585 ;
+    color: #ffffff;
+    padding: 40px;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.titulo_section {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: #DB7093;
+    color: #ececec;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.redes {
+    list-style: none;
+    margin: 0px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.redes i {
+    font-size: 30px;
+}
+
+.productos {
+    align-self: center;
+    margin: 0;
+}
+
+.productos,
+.menu_productos{
+    background-color: #FFB6C1;
+    padding: 10px;
+    align-self: center;
+    padding: 5px;
+    margin: 20px;
+} 
+
+.productos-container {
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+
+.titulo_productos {
+    color: #8B0000;
+}
+
+.formulario-registro {
+    color: #C71585;
+}
 
 
 
