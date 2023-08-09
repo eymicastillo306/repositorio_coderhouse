@@ -1,0 +1,23 @@
+.productos {
+    align-self: center;
+    margin: 0;
+
+    .productos,
+    .menu_productos{
+    background-color: $terciarioColor;
+    padding: 10px;
+    align-self: center;
+    padding: 5px;
+    margin: 20px;
+    } 
+
+    .productos-container {
+        background-color: $quintoColor;
+        padding: 15px;
+    }
+    
+    
+    .titulo_productos {
+        color:$cuaternarioColor;
+    }
+}
