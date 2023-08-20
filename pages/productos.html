@@ -17,39 +17,40 @@
 </head>
 
 <body>
-    <!-- comienza del header-->
-    <header>
-        <nav class="nav_bar">
-            <ul>
-                <li class="nav_bar_items">
-                    <img src="/img/logo_candle_castle-removebg-preview.png" width="50px" class="img-fluid">
-                </li>
-                <li class="nav_bar_items">
-                    <a href="/index.html">Inicio</a>
-                </li>
-                <li class="nav_bar_items">
-                    <a href="/pages/nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav_bar_items active">
-                    <a href="/pages/productos.html">Productos</a>
-                </li>
-                <li class="nav_bar_items">
-                    <a href="/pages/contacto.html">Contactanos</a>
-                </li>
-                <li class="nav_bar_items">
-                    <a href="/pages/sumate.html">Sumate al equipo</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!-- fin del header-->
-    <!-- comienza el main-->
+<!-- comienza el header -->
+<header>
+    <img class="logo" src="/img/logo_candle_castle-removebg-preview.png" width="50px" class="img-fluid">
+    
+    <nav class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="/index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="./nosotros.html">Nosotros</a>
+        </li>
+        <li>
+          <a href="./productos.html">Productos</a>
+        </li>
+        <li>
+          <a href="./contacto.html">Contactanos</a>
+        </li>
+        <li>
+          <a href="./sumate.html">Sumate al equipo</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+<!-- fin del header -->
+
+<!-- comienza el main-->
     <main>
         <section class="titulo_principal">
             <h2 class="d-flex justify-content-center align-items-center">Productos artesanales</h2>
         </section>
 
-        <section class="productos d-flex">
+        <section class="productos d-flex justify-content-around">
             <div class="menu_productos ">
                 <ul>
                     <li><button class="boton-menu"><i class="bi bi-bag-fill"></i>Todos los productos</button>
@@ -64,7 +65,7 @@
                     <li><button class="boton-menu"><i class="bi bi-bag"></i>Difusores</button>
                     </li>
 
-                    <li><i class="bi bi-cart-check-fill"></i>Carrito</a>
+                    <li><i class="carrito fa-solid fa-cart-shopping"></i>
                     </li>
                 </ul>
             </div>
@@ -132,31 +133,38 @@
     </main>
     </div>
     <!-- fin del main-->
-    <!-- comienza el footer-->
 
-    <footer>
-        <div class="footer">
-            <ul class="redes">
-                <li>
-                    <p class="texto-footer">© 2023 Candle Castle - Todos los derechos reservados</p>
-                </li>
+  <!-- comienza el footer-->
+  <footer class="pie-pagina">
 
-                <li>
-                    <i class="fa-brands fa-square-facebook"></i>
-                </li>
+    <div class="contenedor-footer">
+      <div class="caja">
+        <figure>
+          <a href="#">
+            <img src="/img/logo_candle_castle-removebg-preview.png" alt="Logo Candle Castle">
+          </a>
+        </figure>
+      </div>
 
-                <li>
-                    <i class="fa-brands fa-instagram"></i>
-                </li>
+      <div class="caja">
+        <h3>© 2023 Candle Castle - Todos los derechos reservados</h3>
+      </div>
 
-                <li>
-                    <i class="fa-brands fa-whatsapp"></i>
-                </li>
-            </ul>
+      <div class="caja">
+        <h2>Seguinos</h2>
+        <div class="redes">
+          <a href="#" class="fa fa-facebook"></a>
+
+          <a href="#" class="fa fa-instagram"></a>
+
+          <a href="#" class="fa fa-twitter"></a>
         </div>
-    </footer>
+      </div>
+    </div>
+    
+  </footer>
 
-    <!-- fin del footer-->
+  <!-- fin del footer-->
 </body>
 
 </html>
